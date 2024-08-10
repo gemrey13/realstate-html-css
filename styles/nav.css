@@ -1,0 +1,40 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(61, 104, 189, 0.705);
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 2px;
+  z-index: 1000;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .topnav a:nth-child(4), /* Selects the 'Contact' link */
+      .topnav a:nth-child(5) {
+    /* Selects the 'About' link */
+    display: none;
+  }
+}

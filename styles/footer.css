@@ -1,0 +1,20 @@
+.copy-right-sec {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.3rem;
+  background: #82074a;
+  color: #fff;
+  text-align: center;
+  z-index: 1000;
+}
+
+.copy-right-sec a {
+  color: #fcd462;
+  font-weight: 500;
+}
+
+.copy-a {
+  text-decoration: none;
+}
